@@ -7,10 +7,10 @@ export default function LanguageSwitcher() {
 
   const toggleLanguage = () => {
     if (pathname.startsWith('/en')) {
-      // Está em inglês → vai para português
+      
       router.push(pathname.replace('/en', '') || '/')
     } else {
-      // Está em português → vai para inglês
+   
       router.push('/en' + pathname)
     }
   }
