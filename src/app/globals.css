@@ -8,6 +8,10 @@
   }
 }
 
+@theme {
+  --color-azulGustavo: #00A2FF;
+}
+
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -20,4 +24,8 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

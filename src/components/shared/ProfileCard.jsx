@@ -4,16 +4,15 @@ import Image from 'next/image';
 const ProfileCard = () => {
     return (
         // O contêiner principal com position: relative
-        <div className="relative flex justify-center items-center w-48 h-48 sm:w-56 sm:h-56">
+        <div className="relative flex items-center justify-center w-48 h-48 sm:w-56 sm:h-56">
 
             {/* Imagem de Perfil */}
             <Image
-                src="/avatar.png" // Lembre-se de colocar sua imagem na pasta /public
+                src="/perfil.png" // Lembre-se de colocar sua imagem na pasta /public
                 alt="Foto de Perfil"
-                width={300}
-                height={300}
+                fill
                 priority
-                className="rounded-full object-cover border-4 border-gray-200 shadow-lg"
+                className="object-cover border-4 border-gray-200 rounded-full shadow-lg"
             />
 
             {/* --- Ícones de Tecnologia --- */}
@@ -28,7 +27,7 @@ const ProfileCard = () => {
           bottom-[-10px] left-[-20px]
         "
             >
-                <Image src="/icons/react.svg" alt="React" width={32} height={32} />
+                <Image src="/icons/react-logo.svg" alt="React" width={32} height={32} />
             </div>
 
             {/* Ícone JavaScript */}
@@ -41,7 +40,7 @@ const ProfileCard = () => {
           top-[-15px] right-[-10px]
         "
             >
-                <Image src="/icons/js.svg" alt="JavaScript" width={32} height={32} />
+                <Image src="/icons/nodejs-icon.svg" alt="JavaScript" width={32} height={32} />
             </div>
 
             {/* Ícone TypeScript */}
@@ -54,7 +53,7 @@ const ProfileCard = () => {
           bottom-0 right-[-30px]
         "
             >
-                <Image src="/icons/ts.svg" alt="TypeScript" width={32} height={32} />
+                <Image src="/icons/typescript-svgrepo-com.svg" alt="TypeScript" width={32} height={32} />
             </div>
 
         </div>
