@@ -1,6 +1,6 @@
 export default function Sobre(){
     return (
-        <section id="sobre" className="w-full p-10 bg-gradient-to-r from-black to-gray-800">
+        <section id="sobre" className="w-full p-10 bg-div2">
             <div className="max-w-3xl mx-auto ">
                 <h1 className="text-3xl text-white">
                     <span className="text-azulGustavo">sobreMim</span>

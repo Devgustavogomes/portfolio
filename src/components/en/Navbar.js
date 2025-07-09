@@ -30,9 +30,9 @@ export default function Navbar() {
                 </div>
                 {/* Navegação central */}
                 <ul className="justify-center flex-1 hidden gap-6 font-medium text-white md:flex">
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#projetos" className="text-azulGustavo">Projetos</a></li>
+                    <li><a href="#sobre">About</a></li>
+                    <li><a href="#habilidades">Skills</a></li>
+                    <li><a href="#projetos" className="text-azulGustavo">Projects</a></li>
                 </ul>
                 {/* Contatos à direita */}
                 <div className="justify-end flex-1 hidden gap-4 text-white md:flex">
@@ -54,7 +54,7 @@ export default function Navbar() {
                     </a>
                     <a href="mailto:devgustavogomes31@gmail.com" onClick={() => setOpen(false)} className="flex items-center gap-2">
                         <MdEmail className="text-white" />
-                        Contato
+                        Contact Me
                     </a>
                     {/* Adicione outros ícones/links de contato aqui */}
                 </div>
@@ -80,7 +80,7 @@ export default function Navbar() {
                     <li>
                         <a href="mailto:devgustavogomes31@gmail.com" onClick={() => setOpen(false)} className="flex items-center gap-2">
                             <MdEmail className="text-white" />
-                            Contato
+                            Contact Me
                         </a>
                     </li>
                     <li>

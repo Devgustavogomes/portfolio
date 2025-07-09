@@ -10,6 +10,9 @@
 
 @theme {
   --color-azulGustavo: #00A2FF;
+  --color-azulGustavo2: #00A9FF;
+  --color-div1: #181c23;
+  --color-div2: #23272f;
 }
 
 @keyframes float {

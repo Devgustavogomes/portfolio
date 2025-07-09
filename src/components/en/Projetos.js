@@ -18,7 +18,7 @@ export default function Projetos() {
     <section id="projetos" className="w-full p-10 bg-div2">
   <div className="max-w-3xl mx-auto">
     <h1 className="mb-8 text-3xl text-azulGustavo">
-      projetos<span className="text-white">( )</span>
+      projects<span className="text-white">( )</span>
     </h1>
     <div className="flex gap-6 pb-4 overflow-x-auto scrollbar-thin scrollbar-thumb-gray-700">
       {projetos.map((projeto, idx) => (

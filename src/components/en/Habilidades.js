@@ -1,10 +1,10 @@
 import Image from "next/image"
 export default function Habilidades(){
     return(
-        <section id="habilidades" className="w-full p-10 bg-div1">
+        <section id="habilidades" className="w-full p-10 bg-gradient-to-r from-gray-800 to-black">
             <div className="max-w-3xl mx-auto">
                 <h1 className="text-3xl text-white">
-                    <span className="text-azulGustavo">habilidades</span>
+                    <span className="text-azulGustavo">skills</span>
                     <span>( )</span>
                 </h1>
                 <div className="flex flex-row flex-wrap gap-5 px-2 py-10">
@@ -85,9 +85,7 @@ export default function Habilidades(){
                         height={64}
                         priority
                         alt="Git"
-                    />
-                    
-                    
+                    />  
                 </div>
             </div>
         </section>
