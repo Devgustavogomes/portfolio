@@ -2,6 +2,7 @@
 import { useState } from "react"
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import LanguageSwitcher from "../shared/LanguageSwitcher";
 
 
 export default function Navbar() {
@@ -36,14 +37,7 @@ export default function Navbar() {
                 </ul>
                 {/* Contatos à direita */}
                 <div className="justify-end flex-1 hidden gap-4 text-white md:flex">
-                    <select
-                        onChange={e => window.location.href = e.target.value}
-                        className="px-2 py-1 text-white rounded bg-div2"
-                        defaultValue={typeof window !== "undefined" && window.location.pathname.startsWith("/en") ? "/en" : "/"}
-                        >
-                        <option value="/">Português</option>
-                        <option value="/en">English</option>
-                    </select>
+                    <LanguageSwitcher/>
                     <a href="https://www.linkedin.com/in/devgustavogomes/" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="flex items-center gap-2">
                         <FaLinkedin className="text-white" />
                         Linkedin
@@ -84,14 +78,7 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li>
-                    <select
-                        onChange={e => window.location.href = e.target.value}
-                        className="px-2 py-1 text-white rounded bg-div2"
-                        defaultValue={typeof window !== "undefined" && window.location.pathname.startsWith("/en") ? "/en" : "/"}
-                    >
-                        <option value="/">Português</option>
-                        <option value="/en">English</option>
-                    </select>
+                        <LanguageSwitcher/>
                     </li>
                 </ul>
             )}
