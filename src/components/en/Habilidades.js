@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Habilidades(){
     return(
-        <section id="habilidades" className="w-full p-10 bg-gradient-to-r from-gray-800 to-black">
+        <section id="habilidades" className="w-full p-10 bg-div1">
             <div className="max-w-3xl mx-auto">
                 <h1 className="text-3xl text-white">
                     <span className="text-azulGustavo">skills</span>
