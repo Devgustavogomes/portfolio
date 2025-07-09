@@ -17,7 +17,7 @@ Portuguese 🇧🇷 and English 🇺🇸 (manual translation with language toggl
 Adapts to all screen sizes with a hamburger menu on mobile.
 
 🔗 **Live preview**:  
-👉 [Visit portfolio](https://portfolio-snowy-one-33.vercel.app)
+👉 [Visit portfolio](https://portfolio-snowy-one-33.vercel.app/en)
 
 ---
 
